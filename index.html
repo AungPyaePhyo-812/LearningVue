@@ -15,9 +15,9 @@
 <body>
 
     <div id="root" class="container">
-
-        <message title="Hello" body="Lorem ipsum dolor sit amet"></message>
-        <message title="Mingalarpar" body="Arthur John"></message>
+       <!-- <modal v-show="showModal" @close="showModal=false"></modal> -->
+       <modal v-show="showModal" @close="showModal=false"> You can Insert New text Here!</modal>
+       <button @click="showModal = true">Show Modal</button>
     </div>
     
 
